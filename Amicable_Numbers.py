@@ -8,8 +8,7 @@ for i in range(1,n):
 for j in range(1,m):
     if m%j==0:
         s1 += j
-if s==m and s1==n:
-    print("Amicable")
+if s==m and s1 ==n:
+    print('Amicable')
 else:
-    print("Not Amicable")
-        
+    print('Not Amicable')
