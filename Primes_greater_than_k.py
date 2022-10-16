@@ -1,0 +1,15 @@
+a = int(input())
+b = list(map(int,input().split()))
+c = int(input())
+d = 0
+e = 0
+for i in b:
+    for j in range(1,i+1):
+        if i%j==0 and i>=c:
+            d += 1
+    if d==2:
+        e+=1
+        d = 0
+    else:
+        d = 0
+print(e)
